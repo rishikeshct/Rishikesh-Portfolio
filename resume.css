@@ -43,7 +43,7 @@
 .circles a{
   list-style-type: none;
   text-decoration: none;
-  margin: 5px;
+  margin: 6px;
 }
 .circle-with-text {
   background: linear-gradient(orange, red);
