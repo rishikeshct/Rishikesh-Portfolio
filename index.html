@@ -1,23 +1,42 @@
 <html lang="en">
     <head>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
         <meta charset="utf-8" />
         <title>Rishikesh</title>
         <link href="resume.css" type="text/css" rel="stylesheet">
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"> </script>
+        <script>
+        $(document).ready(function(){
+  	$(".typed").typed({
+  		strings: ["Rishikesh Tonne.", "Java Developer.", "Front End Enthusiastic."],
+  		typeSpeed: 30,
+  		startDelay: 1200,
+  		backSpeed: 20,
+  		backDelay: 500,
+  		loopCount: 5,
+      loop: true,
+  		cursorChar: ""
+
+  	});
+  });
+
+
+    </script>
     </head>
     <body>
       <div class = "name">
         <img src="Images/nME.jpg" alt = "Name">
         <section>
-          <h1>Rishikesh Tonne</h1>
-          <h4>Web and java Developer</h2>
+          <h1 class = "typed"></h1>
+          <!-- <h4 id = "type1"></h2> -->
         </section>
-
       </div>
       <div class = "about">
         <section class = "about-me">
 
-          <h1 class = "heading"> <i class="fa fa-share" aria-hidden="true"></i> about  me</h1>
+          <h1 class = "heading"> <i class="fa fa-share" aria-hidden="true"></i> About  me</h1>
           <p>
             I am Rishikesh, a Software Developer and a tech savvy who can learn anything in short span of time.
             Like to wear multiple hats.
@@ -67,6 +86,9 @@ Spring MVC, Git, Problem Solving, Basic Angular 2.
             Have experience working on Spring/Spring Boot framework.
           </p>
         </section>
+      </div>
+      <div class = "blue">
+
       </div>
     </body>
 </html>

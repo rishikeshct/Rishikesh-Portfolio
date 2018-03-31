@@ -5,7 +5,6 @@
 .name{
   position: relative;
   text-align: center;
-
 }
 .name section{
   position: absolute;
@@ -35,9 +34,10 @@
 }
 
 .circles {
-  display: flex;
-  position: relative;
-  height: 130px;
+  width: 30%;
+  animation-name: drive;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 .circles a{
@@ -57,21 +57,37 @@
   height: 180px;
   width: 180px;
   color: #fff;
-  position: absolute;
-  left : 38%;
+  transition : 1s;
 }
+
+.circle-with-text:hover{
+  background  : linear-gradient(red, yellow);
+  transform : rotate(360deg);
+}
+.fa{
+  color: blue;
+  margin: 0 4px;
+  transition: 1s;
+}
+.fa:hover{
+  transform: scale(2);
+}
+
 .multi-line-text {
   font-size: 20px;
 }
 
 body{
   background-color: #f49841;
+  font-family: arial;
 }
 
 .heading{
   color: red;
+
 }
 
-.fa{
-    color: blue;
+@keyframes drive{
+  from{transform: translateX(0px)}
+  to{transform: translateX(120%)}
 }
