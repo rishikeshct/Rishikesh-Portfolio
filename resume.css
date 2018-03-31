@@ -1,0 +1,77 @@
+.name img{
+  max-height: 250px;
+  width: 100%;
+}
+.name{
+  position: relative;
+  text-align: center;
+
+}
+.name section{
+  position: absolute;
+  top: 20%;
+  left: 33%;
+
+  font-style: normal;
+  font-size: 30px;
+  color: #000;
+}
+.about{
+  display: inline-block;
+  width: 40%
+}
+.education{
+  width: 40%;
+  float: right;
+}
+
+.skills{
+  display: inline-block;
+  width: 40%
+}
+.experience{
+  width: 40%;
+  float: right;
+}
+
+.circles {
+  display: flex;
+  position: relative;
+  height: 130px;
+}
+
+.circles a{
+  list-style-type: none;
+  text-decoration: none;
+  margin: 5px;
+}
+.circle-with-text {
+  background: linear-gradient(orange, red);
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  margin: 5px 20px;
+  font-size: 15px;
+  padding: 15px;
+  display: flex;
+  height: 180px;
+  width: 180px;
+  color: #fff;
+  position: absolute;
+  left : 28%;
+}
+.multi-line-text {
+  font-size: 20px;
+}
+
+body{
+  background-color: #f49841;
+}
+
+.heading{
+  color: red;
+}
+
+.fa{
+    color: blue;
+}
