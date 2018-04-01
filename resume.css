@@ -1,3 +1,7 @@
+.resume{
+  position: relative;
+}
+
 .name img{
   max-height: 250px;
   width: 100%;
@@ -37,6 +41,7 @@
   width: 30%;
   animation-name: drive;
   animation-duration: 2s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
 }
 
@@ -86,8 +91,30 @@ body{
   color: red;
 
 }
+.profile{
+    width: 20%;
+    margin: 0 auto;
+    top: 10px;
+}
+.profile img{
+  border-radius: 50px;
+  position: absolute;
+  height: 130px;
+  width: 150px;
+  animation-name: dive;
+  animation-duration: 3s;
+}
+
+
 
 @keyframes drive{
   from{transform: translateX(0px)}
   to{transform: translateX(120%)}
+}
+
+@keyframes dive {
+  0%{transform: translateY(-100%)}
+  50%{transform: translateY(10%)}
+  75%{transform: translateY(22%)}
+
 }
