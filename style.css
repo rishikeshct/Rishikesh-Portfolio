@@ -9,6 +9,10 @@ body {
     max-width: 900px;
 }
 
+p {
+    overflow-wrap: break-word;
+}
+
 .side {
     background: #233b5f;
     padding: 20px;
