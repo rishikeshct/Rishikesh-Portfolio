@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.side {
+    background: #233b5f;
+    padding: 20px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+.heading h1 {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+
+.heading p {
+    font-size: 0.8em;
+    margin-top: 0px;
+    line-height: 1.8em;
+}
+
+.personal p {
+    background: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.award p {
+    font-size: 0.875em;
+}
+
+a {
+    color: white;
+}
+
+main {
+    border-right: 1px solid;
+}
+
+.main > div {
+    padding: 20px 30px;
+}
+
+.main h1{
+    color: #233b5f;
+}
+
+hr {
+    border: 1px solid #233b5f;
+    width: 30px;
+    margin-left: 0;
+}
+
+.timeline {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}   
+
+.info {
+    padding: 0 10px;
+}
+
+img {
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+}
