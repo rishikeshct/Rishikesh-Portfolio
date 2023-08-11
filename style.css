@@ -82,3 +82,24 @@ img {
     height: 50px;
     border-radius: 50%;
 }
+
+@media only screen and (max-width: 700px) {
+
+    .heading {
+        grid-column: span 2;
+    }
+    .container {
+        display: grid;
+    }
+    .side {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .skills {
+        display: flex;
+        grid-column: span 2;
+        overflow: hidden;
+    }
+}
